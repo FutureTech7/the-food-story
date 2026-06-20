@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Food Story - Luxury Fine Dining Experience</title>
+    <meta name="description" content="Experience culinary excellence at The Food Story. Premium fine dining restaurant with world-class cuisine and exceptional service.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <h1>THE FOOD STORY</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#signature">Signature Dishes</a>
+            <a href="#about">About</a>
+            <a href="#chef">Chef</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reservation">Reserve</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Premium background image -->
+        <div class="hero-bg-image"></div>
+        
+        <!-- Dark overlay for readability -->
+        <div class="hero-dark-overlay"></div>
+        
+        <!-- Animated gradient layer -->
+        <div class="hero-gradient-overlay"></div>
+        
+        <!-- Subtle light glow effect -->
+        <div class="hero-light-glow"></div>
+        
+        <!-- Floating luxury particles -->
+        <div class="hero-particles-bg">
+            <div class="particle particle-1"></div>
+            <div class="particle particle-2"></div>
+            <div class="particle particle-3"></div>
+        </div>
+        
+        <!-- Main hero content -->
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="hero-title">Culinary Excellence Redefined</h2>
+                <p class="hero-subtitle">Experience the finest flavors crafted by award-winning chefs in an atmosphere of pure luxury</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('reservation')">Reserve Table</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('signature')">View Menu</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Dishes Section -->
+    <section class="signature" id="signature">
+        <div class="section-header">
+            <h2>Signature Dishes</h2>
+            <p>Crafted with passion, served with perfection</p>
+        </div>
+        <div class="dishes-grid">
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop" 
+                         alt="Premium Wagyu"
+                         onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop';"
+                         onload="this.parentElement.classList.add('image-loaded')">
+                </div>
+                <div class="dish-info">
+                    <h3>Prime Wagyu Ribeye</h3>
+                    <p class="price">$85</p>
+                    <p class="description">Japanese A5 Wagyu with truffle reduction and seasonal vegetables</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="https://images.unsplash.com/photo-1615361200569-40a08e78a41e?w=400&h=400&fit=crop" 
+                         alt="Seafood Platter"
+                         onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop';"
+                         onload="this.parentElement.classList.add('image-loaded')">
+                </div>
+                <div class="dish-info">
+                    <h3>Seafood Delicacy</h3>
+                    <p class="price">$92</p>
+                    <p class="description">Fresh lobster, scallops, and premium oysters with champagne sauce</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561551?w=400&h=400&fit=crop" 
+                         alt="Duck Breast"
+                         onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop';"
+                         onload="this.parentElement.classList.add('image-loaded')">
+                </div>
+                <div class="dish-info">
+                    <h3>Pan-Seared Duck Breast</h3>
+                    <p class="price">$78</p>
+                    <p class="description">Heritage duck breast with cherry gastrique and wild mushroom risotto</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="https://images.unsplash.com/photo-1621996346565-431f63602f41?w=400&h=400&fit=crop" 
+                         alt="Truffle Pasta"
+                         onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop';"
+                         onload="this.parentElement.classList.add('image-loaded')">
+                </div>
+                <div class="dish-info">
+                    <h3>Black Truffle Pasta</h3>
+                    <p class="price">$89</p>
+                    <p class="description">Handmade pasta with Italian black truffle, burrata, and aged parmesan</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="https://images.unsplash.com/photo-1555000594-c1ecf1d35b41?w=400&h=400&fit=crop" 
+                         alt="Lamb Chops"
+                         onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop';"
+                         onload="this.parentElement.classList.add('image-loaded')">
+                </div>
+                <div class="dish-info">
+                    <h3>Herb-Crusted Lamb</h3>
+                    <p class="price">$82</p>
+                    <p class="description">New Zealand lamb chops with rosemary jus and artisanal vegetables</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=400&fit=crop" 
+                         alt="Dessert"
+                         onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop';"
+                         onload="this.parentElement.classList.add('image-loaded')">
+                </div>
+                <div class="dish-info">
+                    <h3>Chocolate Extravaganza</h3>
+                    <p class="price">$32</p>
+                    <p class="description">Dark chocolate mousse, gold leaf garnish, and 24k edible gold dust</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Restaurant Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About The Food Story</h2>
+                <p>Established in 2015, The Food Story has become synonymous with luxury dining and culinary innovation. Our restaurant combines traditional techniques with modern gastronomy, creating an unforgettable experience for every guest.</p>
+                <p>With Michelin recognition and numerous accolades, we pride ourselves on sourcing the finest ingredients from around the world and preparing them with meticulous attention to detail.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>25+</h3>
+                        <p>Years of Excellence</p>
+                    </div>
+                    <div class="stat">
+                        <h3>2</h3>
+                        <p>Michelin Stars</p>
+                    </div>
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>5-Star Reviews</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=500&h=600&fit=crop" 
+                     alt="Restaurant Interior"
+                     onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=600&fit=crop';">
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Chef Section -->
+    <section class="chef" id="chef">
+        <div class="chef-content">
+            <div class="chef-image">
+                <img src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=400&h=500&fit=crop" 
+                     alt="Head Chef"
+                     onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=500&fit=crop';">
+            </div>
+            <div class="chef-info">
+                <h2>Chef Marco Rossini</h2>
+                <p class="chef-title">Head Chef & Founder</p>
+                <p>Chef Marco Rossini brings over 25 years of culinary expertise to The Food Story. Trained under Michelin-starred chefs in Paris and Tokyo, he combines classical French techniques with innovative Asian influences.</p>
+                <p>His passion for perfection and dedication to sourcing premium ingredients has earned him international recognition and numerous culinary awards.</p>
+                <div class="chef-achievements">
+                    <div class="achievement">
+                        <i class="fas fa-medal"></i>
+                        <span>Michelin 2-Star Chef</span>
+                    </div>
+                    <div class="achievement">
+                        <i class="fas fa-trophy"></i>
+                        <span>James Beard Award</span>
+                    </div>
+                    <div class="achievement">
+                        <i class="fas fa-globe"></i>
+                        <span>International Cuisine Expert</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-header">
+            <h2>Guest Reviews</h2>
+            <p>What our valued guests say about their experience</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"An absolutely extraordinary culinary experience. Every dish was a masterpiece, and the service was impeccable. Worth every penny!"</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=50&h=50&fit=crop" 
+                         alt="Sarah"
+                         onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=50&h=50&fit=crop';">
+                    <div>
+                        <h4>Sarah Mitchell</h4>
+                        <p>New York, USA</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"The finest dining experience I've had in years. Chef Marco's creations are pure art. The ambiance, service, and food are all five-star."</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop" 
+                         alt="James"
+                         onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=50&h=50&fit=crop';">
+                    <div>
+                        <h4>James Chen</h4>
+                        <p>Singapore</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"Exceptional attention to detail. The wine pairing was phenomenal, and every staff member made us feel like royalty. Highly recommend!"</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop" 
+                         alt="Emma"
+                         onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=50&h=50&fit=crop';">
+                    <div>
+                        <h4>Emma Rodriguez</h4>
+                        <p>Miami, USA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="section-header">
+            <h2>Gallery</h2>
+            <p>Beautiful moments from The Food Story</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=500&h=500&fit=crop" 
+                     alt="Gallery 1"
+                     onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=500&fit=crop';">
+                <div class="gallery-overlay">
+                    <p>Fine Dining Ambiance</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=500&fit=crop" 
+                     alt="Gallery 2"
+                     onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=500&fit=crop';">
+                <div class="gallery-overlay">
+                    <p>Gourmet Presentation</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1621996346565-431f63602f41?w=500&h=500&fit=crop" 
+                     alt="Gallery 3"
+                     onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=500&fit=crop';">
+                <div class="gallery-overlay">
+                    <p>Premium Dishes</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=500&h=500&fit=crop" 
+                     alt="Gallery 4"
+                     onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=500&fit=crop';">
+                <div class="gallery-overlay">
+                    <p>Chef's Selection</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&h=500&fit=crop" 
+                     alt="Gallery 5"
+                     onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=500&fit=crop';">
+                <div class="gallery-overlay">
+                    <p>Culinary Art</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1504674900968-abf7852caf78?w=500&h=500&fit=crop" 
+                     alt="Gallery 6"
+                     onerror="this.src='https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=500&fit=crop';">
+                <div class="gallery-overlay">
+                    <p>Masterpiece Plating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation" id="reservation">
+        <div class="section-header">
+            <h2>Reserve Your Table</h2>
+            <p>Experience luxury dining at The Food Story</p>
+        </div>
+        <form class="reservation-form" id="reservationForm">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" placeholder="Phone Number" required>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="date" required>
+                </div>
+                <div class="form-group">
+                    <input type="time" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <select required>
+                    <option value="">Number of Guests</option>
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                    <option value="5">5 Guests</option>
+                    <option value="6">6 Guests</option>
+                    <option value="7">7+ Guests</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Special Requests (Optional)" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Confirm Reservation</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <h2>Contact Us</h2>
+            <p>Get in touch with The Food Story</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Address</h3>
+                        <p>123 Culinary Avenue<br>New York, NY 10001</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+1 (212) 555-0123</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>reserve@thefoodstory.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Hours</h3>
+                        <p>Tuesday - Thursday: 5PM - 11PM<br>
+                        Friday - Saturday: 5PM - 12AM<br>
+                        Sunday: 5PM - 10PM<br>
+                        Closed Mondays</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1234567890!2d-74.0!3d40.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>The Food Story</h3>
+                <p>Experience culinary excellence and luxury dining</p>
+                <div class="social-links">
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#signature">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Hours</h4>
+                <ul>
+                    <li>Tue - Thu: 5PM - 11PM</li>
+                    <li>Fri - Sat: 5PM - 12AM</li>
+                    <li>Sun: 5PM - 10PM</li>
+                    <li>Closed Mondays</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <p>Subscribe for exclusive offers</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 The Food Story. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Premium WhatsApp Floating Button -->
+    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" title="Chat With Us">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat With Us</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+    (function (l) {
+      if (l.search[1] === "/") {
+        var decoded = l.search
+          .slice(1)
+          .split("&")
+          .map(function (s) {
+            return s.replace(/~and~/g, "&");
+          })
+          .join("?");
+        window.history.replaceState(
+          null,
+          null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    })(window.location);
+  </script>
